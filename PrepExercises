@@ -1,0 +1,137 @@
+/*
+1.Create a directory named my_folder and navigate to that directory. 
+Create two files named one.js and two.js in my_folder. Add the following JavaScript code to one.js: console.log('this is file one');
+Add some code to two.js that logs 'this is file two'.
+When you're finished, run both programs with node.
+*/
+$ mkdir my_folder
+$ cd my_folder
+$ touch one.js
+$ touch two.js
+
+//use your editor to edit one.js and two.js
+
+$ node one.js
+this is file one
+
+$ node two.js
+this is file two
+
+
+//2.When you finish Exercise 1, navigate to the directory above the my_folder directory and delete all the content you generated in exercise 1 with one command.
+cd ..
+rm -R my_folder
+
+/*
+3. Create a file named foo.js in a directory named preparations_exercises. Add the following code to the file.
+
+let foo = "bar";
+console.log(foo);
+foo;
+*/
+
+mkdir preparations_exercises
+cd preparations_exercises
+touch foo.js
+
+// 4.
+//4a. Use node to run the foo.js file using node. What does it output?
+$node foo.js
+bar
+//4b. Copy and paste the code from foo.js into the node REPL. What does it output?
+> let foo = "bar";
+undefined
+> console.log(foo);
+bar
+undefined
+> foo;
+'bar'
+>
+//4c. Copy and paste the code from foo.js into the Chrome console REPL. What does it output?
+let foo = "bar";
+console.log(foo);
+foo;
+bar
+'bar'
+
+/*5.Identify the Constructors for each of the following methods and classify each method as either a "Static" or a "Prototype" method:
+
+substring - string - prototype
+create - object - static
+fromCharCode - string - static
+slice - array, string - prototype
+toString - object, array, number, string - prototype
+*/
+
+/* 6.
+Which of the following names satisfy t
+he style guidelines for variable names? 
+For the purposes of this question, constants are not variables.
+
+Name
+index - true
+CatName - false
+snake_case - false
+lazyDog - true
+quick_Fox - false
+1stCharacter - false
+operand2 - true
+BIG_NUMBER - false
+*/
+
+/* 7.
+Which of the following names satisfy the style guidelines for function names?
+
+Name
+index - true
+CatName - true 
+snake_case - false
+lazyDog - true
+quick_Fox - false
+1stCharacter - false
+operand2 - true
+BIG_NUMBER - false 
+*/
+
+/* 8.
+Which of the following names satisfy the style guidelines for constants used to represent magic numbers?
+
+Name
+index - false 
+CatName - false 
+snake_case - false 
+lazyDog - false
+quick_Fox - false
+1stCharacter - false
+operand2 - false
+BIG_NUMBER - true
+
+*/
+
+/* 9.
+Which of the following names don't satisfy the style guidelines for naming variables, functions, or constants?
+
+Name
+index - true
+CatName - true
+snake_case - false
+lazyDog - true
+quick_Fox - false
+1stCharacter - false
+operand2 - false 
+BIG_NUMBER - true
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
