@@ -1,0 +1,41 @@
+/*
+let rlSync = require('readline-sync');
+let name = rlSync.question("What's your name?\n");
+console.log(`Good Morning, ${name}!`);
+*/
+
+/*
+let rlSync = require('readline-sync');
+
+let number1 = Number(rlSync.question('Enter the first number\n'));
+let number2 = Number(rlSync.question('Enter the second number\n'));
+let sum = number1 + number2;
+
+console.log(`The numbers ${number1} and ${number2} add to ${sum}`);
+*/
+
+/*1. 
+let rlSync = require('readline-sync');
+let firstName = rlSync.question("What's your first name?\n");
+console.log(`Hello, ${firstName}!`);
+*/
+
+
+/*2.
+let rlSync = require('readline-sync');
+let firstName = rlSync.question("What's your  first name?\n");
+let lastName = rlSync.question("What's your  last name?\n");
+console.log(`Hello, ${firstName} ${lastName}!`);
+*/
+
+/*3.
+let rlSync = require('readline-sync');
+let myAge = Number(rlSync.question("What's your age?\n"));
+
+console.log(`You are ${myAge} years old.`);
+*/
+console.log(`In 10 years, you will be ${myAge + 10} years old.`);
+console.log(`In 20 years, you will be ${myAge + 20} years old.`);
+console.log(`In 30 years, you will be ${myAge + 30} years old.`);
+console.log(`In 40 years, you will be ${myAge + 40} years old.`);
+*/
