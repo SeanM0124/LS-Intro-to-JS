@@ -1,0 +1,35 @@
+/* 1. greeter.js
+let firstName = 'Victor';
+
+console.log(`Good Morning, ${firstName}.`);
+console.log(`Good Afternoon, ${firstName}.`);
+console.log(`Good Evening, ${firstName}.`);
+*/
+
+/* 2. age.js
+let myAge = 24;
+
+console.log(`You are ${myAge} years old.`);
+console.log(`In 10 years, you will be ${myAge + 10} years old.`);
+console.log(`In 20 years, you will be ${myAge + 20} years old.`);
+console.log(`In 30 years, you will be ${myAge + 30} years old.`);
+console.log(`In 40 years, you will be ${myAge + 40} years old.`);
+*/
+
+//3.
+//foo is declared in block scope, so it cannot 
+//be called out side of the the block, errors
+
+//4.
+// It will log the first 3 statements, 
+//but constants cannot have their value changed, 
+//so the program will error and not run through the rest of the code.
+
+//5.
+// the code will log 'bar'. While inside the block the value of foo is changed, 
+//that change is only visible within the block. Globally, foo is still valued as "bar"
+
+//6.
+//No error will occur, the code will log 'bar'
+//There is no error due to block scope declaring a 
+//seperate constant albeit with the same name.
