@@ -1,1 +1,94 @@
 
+/*1.
+let firstName = 'Sean';
+let lastName = 'Mentele';
+console.log(firstName + ' ' + lastName);
+*/
+
+/* 2. 
+let number = 4936
+let ones = number % 10;
+ones;
+
+number = (number - ones) / 10;
+
+let tens = number % 10;
+tens
+
+number = (number - tens) / 10;
+
+let hundreds = number % 10;
+hundreds;
+
+let thousands = (number - hundreds) / 10;
+thousands;
+*/
+
+/*3.
+console.log(typeof 'true');
+//String
+console.log(typeof false);
+//Boolean
+console.log(typeof 1.5);
+//Number
+console.log(typeof 2);
+//Number
+console.log(typeof undefined);
+//Undefined
+console.log(typeof { foo: 'bar'});
+//Object
+*/
+
+/* 4.
+The code logs '510' instead of 15 due to type coercion from the
+string concat. with the + symbol, it will always 
+coerce the number into a string.
+
+*/
+
+//5.
+//console.log(Number('5') + 10);
+
+//6.
+//console.log(`The value of 5 + 10 is ${Number('5') + 10}.`);
+
+/*7. 
+let foo = ['a', 'b', 'c'];
+console.log(foo.length);  // => 3
+console.log(foo[3]);      // will this result in an error?
+//It wont be an error, it will be undefined
+*/
+/*
+> let foo = ['a', 'b', 'c'];
+undefined
+> console.log(foo.length);  // => 3
+3
+undefined
+> console.log(foo[3]);      // will this result in an error?
+undefined
+undefined
+>
+*/
+
+//8.
+//let names = ['Butter', 'Jaeger', 'Danger', 'Shadow', 'Lennard',];
+
+/*9.
+let pets = {
+  Butter: 'cat',
+  Jaegar: 'cat',
+  Danger: 'cat',
+  Shadow: 'cat',
+  Lennard: 'dog',
+};
+*/
+
+//10.
+//It evaluates to false, since the case is different between the two strings.
+
+
+//11.
+//It evaluates to 3
+
+//12.
+//true, since its evaluating strings rather than numbers
