@@ -1,0 +1,83 @@
+/*1.
+let rlSync = require('readline-sync');
+let myAge = Number(rlSync.question("What's your age?\n"));
+
+for (let i = 10; i < 50; i += 10) {
+  console.log(`In ${i} years, you will be ${myAge + i} years old.`)
+}
+*/
+
+//2. 
+
+/*
+function factorial(number) {
+  let result = 1;
+  for (let counter = number; counter > 0; counter -= 1){
+    result *= counter;
+  }
+
+  return result;
+}
+
+*/
+
+//3. 
+
+/*
+let counter = 0;
+
+while (counter = 1) {
+  console.log(counter);
+  counter += 1;
+
+  if (counter > 2) {
+    break;
+  }
+}
+*/
+
+//This is an infinite loop due to what happens on line 28 - 30.
+//the condition of the while loop is not met, since its not met, 
+// it cannot increase the counter, and since counter is never greater than 2
+// it cannot reach the break.
+
+//4.
+
+/*
+for (let i = 0; i < 5;) {
+  console.log(i += 1);
+}
+*/
+//the code does not output an error. I learned that each of the 3 components are 
+// optional, and the part the increments or produces the next value is omitted,
+//but its replaced in the block
+
+
+//5.
+/*
+function randomNumberBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+let tries = 0;
+let result;
+
+do {
+  result = randomNumberBetween(1, 6);
+  tries += 1;
+} while (result <= 2);
+
+console.log('It took ' + String(tries) + ' tries to get a number greater than 2');
+*/
+
+//6.
+/*
+function factorial(number) {
+  if(number === 1) {
+    return 1;
+  }
+
+  return number * factorial(number - 1);
+}
+
+*/
