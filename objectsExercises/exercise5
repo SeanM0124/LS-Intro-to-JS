@@ -6,4 +6,4 @@ let myProtoObj = {
 };
 
 let myObj = Object.create(myProtoObj); //returns a new obj with myProtoObj as its prototype
-
+myObj.qux = 3;
