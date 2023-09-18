@@ -1,0 +1,6 @@
+> let y = "5"
+> y++
+
+//the return value is 5
+//y++ returns original value, not the increased one. 
+// y is actually 6
