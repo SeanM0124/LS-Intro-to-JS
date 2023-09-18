@@ -1,0 +1,11 @@
+let student = {
+  name: 'Carmen',
+  age: 14,
+  grade: 10,
+  courses: ['biology', 'algebra', 'composition', 'ceramics'],
+  gpa: 3.75,
+};
+
+// incorrect first try: console.log(object.values(student.courses)
+
+student.courses; //far simpler than intially thought.
