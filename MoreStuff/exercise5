@@ -1,0 +1,18 @@
+What does the following function do?
+
+function doSomething(string) {
+  return string.split(' ').reverse().map((value) => value.length);
+}
+
+/*
+
+takes string value as its arguement
+.split(' ') seperates the string at any spaces (words), and places it into an array, returns array
+.reverse() revereses the order of which the elements of an array are in
+.map((value) => value.length) creates an new array of the lengths of the elements from the calling array
+
+ultimately doSomething() will split a string by the words (spaces), reverse its order, then create and return an new array that consits of the words lengths
+
+
+
+*/
