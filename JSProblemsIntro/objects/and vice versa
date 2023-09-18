@@ -1,0 +1,9 @@
+let nestedArray = [['title', 'Duke'], ['name', 'Nukem'], ['age', 33]];
+
+// Expected output:
+// { title: 'Duke', name: 'Nukem', age: 33 }
+
+//found .fromEntries on mdn which performs the reverse of .entries
+
+console.log(Object.fromEntries(nestedArray);
+//output: { title: 'Duke', name: 'Nukem', age: 33 }
