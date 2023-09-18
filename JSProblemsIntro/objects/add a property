@@ -1,0 +1,17 @@
+let fido = {
+  name: 'Fido',
+  species: 'Labrador Retriever',
+  color: 'brown',
+  weight: 16,
+};
+
+// Add property 'age'.
+
+fido.age = 3;
+// Add property 'favorite food'.
+fido.favorite food = 'Steak'; // white space not allowed
+
+fido['age'] = 2;
+fido['favorite food'] = 'peanut butter';
+
+//suppose i was incorrect, mine did not include ' '
