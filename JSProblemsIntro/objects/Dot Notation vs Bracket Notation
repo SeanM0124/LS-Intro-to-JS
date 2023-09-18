@@ -1,0 +1,23 @@
+let ocean = {};
+let prefix = 'Indian';
+
+ocean.prefix = 'Pacific';
+
+console.log(ocean); // 'Pacific'
+
+// -------------------------------
+
+let ocean = {};
+let prefix = 'Indian';
+
+ocean[prefix] = 'Pacific';
+
+console.log(ocean); // 'Pacific'
+
+// The first logs {prefix: 'Pacific'}
+//the 2nd logs {Indian: 'Pacific'}
+
+$node moreStuff.js
+{ prefix: 'Pacific' }
+$node moreStuff.js
+{ Indian: 'Pacific' }
